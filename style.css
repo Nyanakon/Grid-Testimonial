@@ -1,0 +1,26 @@
+
+.body {
+    font-family: "Figtree", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+  }
+
+  .grid-container {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 15px;
+    row-gap: 20px;
+  }
+
+  .item{
+    background-color: rgb(255, 181, 205);
+    padding: 20px;
+    border: 1px solid #FFFFFF;
+  }
+
+  .item:nth-of-type(1) {
+    background: rgb(176, 203, 148);
+    height: 200px;
+  }
